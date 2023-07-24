@@ -1,0 +1,8 @@
+:root{
+    --main-color:#ffbb00;
+    --green-light:red;
+}
+body{
+    font-family:'Lato' 'sans-serif';
+    color: rgba(0, 0, 0, 0.101);
+}
