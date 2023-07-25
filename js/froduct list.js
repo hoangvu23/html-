@@ -148,12 +148,6 @@ html.innerHTML= draw;
     return money
 }  
 
-     function saledraw()
-     {
-    if (salestatus = true) 
-    {
-        
-    }
-     }
+     
 
                      /*cart*/
