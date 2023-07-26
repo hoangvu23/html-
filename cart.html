@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <div class="card"  >
+        <div class="card-header">
+          <img style="height: 100%; width: auto;"  src="image/logo.jpg" alt="">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">SupReMe</h5>
+          <p class="card-text">Mua Sắm Thả Ga </p>
+          <a href="home.html" class="btn btn-primary">trang chủ</a>
+        </div>
+      </div>
+      <table class="table table-hover table-bordered border-primary">
+        <thead class="table-dark">
+          <tr id="total-product-number"></tr>
+  
+          <tr>
+            <th class="th-product number-ordinal" scope="col">stt</th>
+            <th class="th-product" scope="col">Ảnh</th>
+            <th class="th-product" scope="col">Tên</th>
+            <th class="th-product" scope="col">đơn giá</th>
+            <th class="th-product" scope="col">số lượng</th>
+            <th class="th-product" scope="col">số tiền</th>
+            <th class="th-product" scope="col">thao tác</th>
+          </tr>
+        </thead>
+        <tbody id="product-list">
+
+        </tbody>
+        <tr>
+            
+            <th colspan="5">total</th>
+            <th id="tong"></th>
+            <th></th>
+            
+          </tr>
+
+       
+      </table>
+      <script src="js/cart.js"></script>
+     
+</body>
+</html>
